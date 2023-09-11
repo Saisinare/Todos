@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/image/todo.png" type="image/x-icon" />
+    <title>To Do List</title>
+  </head>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="container">
+      <div class="head">
+        <input type="text" id="input" placeholder="Enter Your Task" />
+        <div class="button-submit" id="button-submit">Add Task</div>
+      </div>
+
+      <div class="done-task">
+        <div class="done-title">
+          <img src="./assets/image/done.png" id="done-image" /> Done Tasks
+          <div class="cleardone" id="cleardone">Clear All</div>
+          <div class="message" id="message">
+            To Delete Task Double Click On the Task
+          </div>
+        </div>
+        <div class="done_task" id="done_task">
+          <!-- <div class="done"></div> -->
+        </div>
+      </div>
+      <div class="created-task">
+        <ul id="to-do-list"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>

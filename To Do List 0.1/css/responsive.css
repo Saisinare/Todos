@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  body {
+    overflow-y: hidden;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    overflow: hidden;
+  }
+  .head {
+    flex-direction: column;
+    width: 90vw;
+    align-items: flex-start;
+    row-gap: 1vh;
+    padding-left: 10vw;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  #input {
+    width: 80vw;
+  }
+  .done-task {
+    /* display: none; */
+    margin-left: -500vw;
+    width: 100vw;
+    height: 100vw;
+  }
+  .done-title,
+  .done_task {
+    width: 100vw;
+    background-color: rgb(198, 240, 253);
+  }
+  .done_task {
+    height: 100vh;
+    background-color: rgb(100, 241, 241);
+    flex-direction: column;
+  }
+  .done {
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 0.5vh solid rgb(126, 245, 239);
+  }
+  .created-task {
+    margin-left: 0;
+    padding-left: 0;
+    align-items: flex-start;
+    row-gap: 0;
+    overflow: hidden;
+  }
+  .todo {
+    margin: 0;
+    margin-top: 0.5vh;
+    width: 98vw;
+    box-shadow: none;
+    height: 8vh;
+    padding-left: 2vw;
+    font-size: 2.5vh;
+  }
+  #to-do-list {
+    height: 8vh;
+  }
+  .delete-button,
+  .done-button {
+    height: 6vh;
+  }
+  .delete-button {
+    margin-right: 1vw;
+  }
+}
